@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchCats } from './actions/catActions'
-import {catList} from './components/CatList'
+import CatList from './components/CatList'
 
 class App extends Component { 
   
