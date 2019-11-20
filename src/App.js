@@ -19,7 +19,7 @@ class App extends Component {
   
   render() {
     return (
-      <div>
+      <div classname="App">
         <h1>CatBook</h1>
          {this.handleLoading()}
       </div>
